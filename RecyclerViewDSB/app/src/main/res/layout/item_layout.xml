@@ -44,7 +44,9 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@+id/description"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -60,7 +62,8 @@
             android:layout_toLeftOf="@+id/share_but"
             android:clickable="true"
             android:focusable="true"
-            android:text="details"
+            android:text="@string/details"
+            android:theme="@style/MFlatButton"
              />
 
         <Button
@@ -71,7 +74,8 @@
             android:layout_alignParentRight="true"
             android:clickable="true"
             android:focusable="true"
-            android:text="share"
+            android:text="@string/share"
+            android:theme="@style/MButton"
             />
     </RelativeLayout>
     </RelativeLayout>

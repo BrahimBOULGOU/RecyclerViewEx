@@ -17,4 +17,16 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="MFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">@style/ButtonColor</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <style name="ButtonColor" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
 </resources>
